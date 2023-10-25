@@ -1,0 +1,136 @@
+button {
+    background: orange;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 25px;
+    color: white;
+    font-size: 12px;
+}
+
+.nav-item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.fixed-top
+{
+    background-color: rgba(128, 128, 128, 0.39) !important;
+    /* color: black !important; */
+}
+.nav-item .active {
+    color: white !important;
+}
+
+.banner-back {
+    /* background: url(https://landing.zytheme.com/cobuild/assets/images/hero/1.jpg) center no-repeat; */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)70%, rgba(0, 0, 0, 0.6)70%), url(https://landing.zytheme.com/cobuild/assets/images/hero/1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(51, 51, 51);
+}
+
+.banner-back:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg-overlay:before {
+    background-color: rgba(51, 51, 51, 0.87);
+}
+
+
+.serv-hea {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.831);
+}
+
+.serv-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+
+.img-para,
+.img-cont,
+.img-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.feature-work .img-cont {
+    /* background-color: orange; */
+    overflow: hidden;
+    position: relative;
+
+}
+
+.feature-work img:hover {
+    scale: 110%;
+    transition-duration: 2s;
+}
+
+.feature-work img {
+    width: 100%;
+
+}
+
+.feature-work .img-cont p {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 166, 0, 0.434); */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.feature-work .img-cont p:hover {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 166, 0, 0.518);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.icondiv ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.icondiv ul li {
+    padding: 10px;
+    list-style: none;
+    margin-right: 20px;
+}
+i
+{
+    color: gray;
+}
+.cont-foot
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #f8f8f8; */
+}
+footer
+{
+    background-color: #ffffff !important;
+}
